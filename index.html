@@ -1,70 +1,58 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale:1.0">
-  <title>Marian Dev</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Column Card</title>
+    <link rel="stylesheet" href="3column.css">
 </head>
-<style>
-  body {
-    font-family: Garamond, serif;
-    background-color: smokegrey;
-    font-size: 125%;
-    color: black;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    margin: 30px;
-  }
-</style>
-<section>
-  <nav>
-    <style>
-      body {
-        text-align: left;
-        margin-right: 150px
-      }
-    </style>
-    <ul>
-      <li style="float:right ;"><a href="Contact.html"> Contact me</a></li>
-      <li style="float: right;"><a href="Projects.html"> Projects</a></li>
-      <li style="float:right;"><a href="About.html"> About me</a></li>
-    </ul>
-  </nav>
-  <div class="header">
-    <h3 class="logo">Marian Dev</h3>
-  </div>
-</section>
-<main>
-  <div>
-    <h1 style="font-family: Garamond,serif;padding: 120px"> Marian Zoe | Frontend Dev</h1>
+<body>
+    <center>
+        <button class="link"><a href="grid.html">Click here to check the Grid view</a></button>
+      </center>
     <div class="container">
-      <img src="https://drive.google.com/file/d/1nrnfPmZ3rhyHSgOxqRGcc-ctk6J11M2M/view?usp=sharing">
-      <p><b>Hi! I'm Marian!</b></p>
-      I am a UX Designer/ Frontend Developer based
-      in Accra, Ghana</p>
+        <div class="items">
+            <div class="item first">
+                <div class="image">
+                    <img src="icon-sedans.svg" alt="">
+                </div>
+                <div class="content">
+                    <h1>SEDANS</h1>
+                    <p>
+                        Choose a sedan for its affordability and excellent fuel economy. Ideal for
+                        cruising in the city or on your next road trip.
+                    </p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            <div class="item second">
+                <div class="image">
+                    <img src="icon-suvs.svg" alt="">
+                </div>
+                <div class="content">
+                    <h1>SUVS</h1>
+                     <p>
+                        Take an SUV for its spacious interior, power, and versatility. Perfect for
+                        your next family vacation and off-road adventures.
+                     </p>
+                     <button>Learn More</button>
+                </div>
+            </div>
+            <div class="item third">
+                <div class="image">
+                    <img src="icon-luxury.svg" alt="">
+                </div>
+                <div class="content">
+                    <h1>LUXURY</h1>
+                    <P>Cruise in the best car brands without the bloated prices. Enjoy the enhance
+                        comfort of a luxury rental and arrive in style.
+                    </P>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <section style=" padding: 10px; 
-            border: 1px solid lightgray; 
-            margin: 30px;">
-      <h4><b></b>About me</b></h4>
-      <p>I am an enthusistic lady trying to find her way into the tech space.</p>
-      I live in Accra, Ghana, where I am an Administrative Assistant by day and a "tech wannabe" by night. I enjoy
-      blasting some music and watching movies when I am not trying to find out how something works
-      <br> I am quite skilled in UX design, using Figma to design UIs after conducting research on users in the design
-      process</p>
-    </section>
-    <section style=" padding: 10px; 
-            border: 1px solid lightgray; 
-            margin: 30px;">
-      <h3><b></b>Services</b></h3>
-      <ul>UX Research and Design for Mobile Apps</ul>
-      <ul>Design of beautiful Landing pages for websites</ul>
-      <ul>Building websites using my stellar dev skills</ul>
-    </section>
-    </body>
-</main>
-<footer style="float:left" ;> &copy 2022 Marian the Dev</footer>
+</body>
 
 </html>
